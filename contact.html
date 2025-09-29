@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact • SAJA P T</title>
+  <meta name="description" content="Contact SAJA P T for collaborations, internships, or teaching assistance.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="nav container">
+      <a class="logo" href="home.html">SAJA P T</a>
+      <div class="nav-right">
+        <a class="btn" href="home.html">Home</a>
+        <a class="btn" href="about.html">About</a>
+        <a class="btn" href="education.html">Education</a>
+        <a class="btn" href="skills.html">Skills</a>
+        <a class="btn" href="projects.html">Projects</a>
+        <a class="btn" href="contact.html">Contact</a>
+        <button class="theme-toggle" aria-label="Toggle theme">🌓</button>
+      </div>
+    </div>
+  </header>
+
+<main>
+  <section class="section container reveal" aria-labelledby="contact-title">
+    <h1 id="contact-title">Contact</h1>
+    <p class="muted">Prefer email or LinkedIn. The form below is simple and privacy-friendly.</p>
+
+    <div class="contact-wrap">
+      <!-- Form card -->
+      <form class="card" action="mailto:name@example.com" method="post" enctype="text/plain" aria-labelledby="contact-title">
+        <div class="form-row">
+          <div class="field">
+            <input id="name" name="name" type="text" required autocomplete="name" placeholder=" " />
+            <label for="name">Full name</label>
+          </div>
+          <div class="field">
+            <input id="email" name="email" type="email" required autocomplete="email" placeholder=" " />
+            <label for="email">Email address</label>
+          </div>
+        </div>
+
+        <div class="field" style="margin-top:1rem">
+          <input id="subject" name="subject" type="text" placeholder=" " />
+          <label for="subject">Subject (optional)</label>
+        </div>
+
+        <div class="field" style="margin-top:1rem">
+          <textarea id="message" name="message" rows="6" required placeholder=" "></textarea>
+          <label for="message">Message</label>
+        </div>
+
+        <div class="form-actions">
+          <button class="btn glow " type="reset">Clear</button>
+          <button class="btn glow" type="submit">Send message</button>
+        </div>
+      </form>
+
+      <!-- Aside contact options -->
+      <aside class="card contact-aside">
+        <h2 style="margin-top:0">Other ways</h2>
+        <p><strong>Email:</strong> name@example.com</p>
+        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/saja-pt" target="_blank" rel="noopener">linkedin.com/in/saja-pt</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/Saja-abbas" target="_blank" rel="noopener">github.com/Saja-abbas</a></p>
+        <p><strong>Instagram:</strong> <a href="https://instagram.com/saja_bbas" target="_blank" rel="noopener">instagram.com/saja_bbas</a></p>
+        <p class="muted">Tip: Replace the mailto action with EmailJS or Netlify Forms for a backend-free submission flow.</p>
+      </aside>
+    </div>
+  </section>
+</main>
+
+
+  <!-- Footer -->
+  <footer class="footer container">
+    <p>© <span id="year"></span> SAD @ CUSAT • Built with HTML, CSS, and JS</p>
+    <ul class="social">
+      <li><a class="btn" href="https://github.com/Saja-abbas" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a class="btn" href="https://linkedin.com/in/saja-pt" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a class="btn" href="https://instagram.com/saja_bbas" target="_blank" rel="noopener">Instagram</a></li>
+    </ul>
+  </footer>
+  <script src="javascript/script.js" defer></script>
+</body>
+</html>
