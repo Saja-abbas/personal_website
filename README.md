@@ -57,7 +57,7 @@ All links work locally out of the box.
 - [LinkedIn](https://linkedin.com/in/saja-pt)
 - [GitHub](https://github.com/Saja-abbas)
 - [Instagram](https://instagram.com/saja_bbas)
-- Email: name@example.com
+- Email: sajaabbaspt@gmail.com
 
 ---
 
