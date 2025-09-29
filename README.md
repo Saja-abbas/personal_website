@@ -29,7 +29,7 @@ Built with **HTML**, **CSS**, and **JavaScript** — responsive and easy to cust
 - `education.html` — Academic history (CUSAT, BCA at Malabar College)
 - `skills.html` — Programming languages and tools
 - `projects.html` — Major works:
-    - [MedLens – Health Monitoring App](MedLens.pdf)
+    - MedLens – Health Monitoring App(MedLens.pdf)
     - Maternity Cue – Pregnancy Tracker (details/download coming soon)
 - `contact.html` — Elegant contact form and alternate contact methods
 
